@@ -1,0 +1,15 @@
+{
+  order webdav before file_server
+}
+
+
+:{$PORT:6969} {
+  basicauth * {
+    {$USERNAME} {$HASH}
+  }
+
+  webdav * {
+    root /data
+    prefix /dav
+  }
+}

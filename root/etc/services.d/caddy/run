@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv sh
+
+set -ex
+
+exec s6-setuidgid abc caddy run -config /config/Caddyfile
