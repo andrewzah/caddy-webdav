@@ -3,7 +3,7 @@
 }
 
 
-:{$PORT:6969} {
+:{$WEBDAV_PORT:6969} {
   basicauth * {
     {$USERNAME} {$HASH}
   }
