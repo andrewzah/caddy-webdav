@@ -2,10 +2,10 @@ version: '3.7'
 
 services:
   caddy-webdav:
-    image: andrewzah/caddy-webdav:2.3.0-alpine3.13
+    image: andrewzah/caddy-webdav:2.4.3-alpine3.13
     environment:
       USERNAME: 'andrew'
-      HASH: 'JDJhJDE0JHB3N0Roajdlck1TRzhhNFVLNVVNeE9jTU9GRWkzSEdNejVOc1QucWxmQ1pNSS5MUy5PLkpP'
+      HASH: 'abcdefgh'
     ports:
       - "6969:6969"
     volumes:
